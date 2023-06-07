@@ -9,8 +9,13 @@ function App() {
       <div>
       < Nav />
       </div>
-    
+
       < Home />
+
+
+
+
+
     </div>
   );
 }
