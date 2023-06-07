@@ -44,10 +44,11 @@
 }
 
 .featured-image {
-  background-image: url('https://irp.cdn-website.com/263ba0d9/dms3rep/multi/0632c53e-88a7-4c45-905b-6269d19a2343.png');
+  background-color: red;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 300px;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
