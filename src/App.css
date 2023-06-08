@@ -3,9 +3,17 @@
 }
 /* Nav */
 .nav {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 10px;
+  display: flex; /* Add flex display */
+  justify-content: space-between; /* Add justify-content property */
+  align-items: center; /* Add align-items property */
+}
+
+.nav-brand {
+  display: flex; /* Add flex display */
+  align-items: center; /* Add align-items property */
 }
 
 .nav-list {
@@ -30,6 +38,7 @@
   background-color: #555;
   border-radius: 5px;
 }
+
 
 /* Home */
 .home-container {
