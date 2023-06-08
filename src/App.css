@@ -6,14 +6,20 @@
   background-color: black;
   color: #fff;
   padding: 10px;
-  display: flex; /* Add flex display */
-  justify-content: space-between; /* Add justify-content property */
-  align-items: center; /* Add align-items property */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Add a higher z-index value */
 }
 
+
 .nav-brand {
-  display: flex; /* Add flex display */
-  align-items: center; /* Add align-items property */
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -21,7 +27,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: left;
+  justify-content: flex-end;
 }
 
 .nav-list li {
@@ -38,18 +44,17 @@
   background-color: #555;
   border-radius: 5px;
 }
-
-
 /* Home */
 .home-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
   max-width: 600px;
   padding: 20px;
+  padding-left: 0;
 }
 
 .featured-image {
@@ -72,6 +77,10 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: 100%;
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-box {
@@ -89,6 +98,24 @@
 
 .service-box:hover {
   transform: translateY(-5px);
+}
+
+.service-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: rgba(42, 140, 213, 0.8);
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.service-description {
+  font-size: 0.9rem;
 }
 
 .service-image {
@@ -132,7 +159,6 @@
 .service-details p {
   margin-bottom: 20px;
 }
-
 
 /*  */
 
