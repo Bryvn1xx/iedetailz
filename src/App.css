@@ -46,6 +46,7 @@
 }
 /* Home */
 .home-container {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -118,6 +119,7 @@
 
 .service-description {
   font-size: 0.9rem;
+  text-align: left;
 }
 
 .service-image {
