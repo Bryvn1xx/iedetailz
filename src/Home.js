@@ -3,9 +3,6 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="home-container">
-      <header>
-        <h1>Welcome to IEDetailz</h1>
-      </header>
 
       <div className="featured-image"></div>
 

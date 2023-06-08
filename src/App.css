@@ -51,11 +51,11 @@
   align-items: flex-start;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 80px auto 0; /* Add a top margin of 80px to push the content below the navigation bar */
   max-width: 600px;
   padding: 20px;
-  padding-left: 0;
 }
+
 
 .featured-image {
   background-color: red;
@@ -65,7 +65,9 @@
   width: 90%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Add this line to center the image */
 }
+
 
 .about-section,
 .services-section {
