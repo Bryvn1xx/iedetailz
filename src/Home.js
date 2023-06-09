@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './IMG_0038.jpg';
+// import logo from '/IMG_0038.jpg';
 const Home = () => {
   return (
     <div className="home-container">
-      <img className='featured-image'src={logo}/>
+      <img className='featured-image'src={'https://www.goldeagle.com/wp-content/uploads/2022/11/39030_In-Use_Bottle-Foaming-Corvette-Backlight-3-min.jpg'}/>
       <section className="about-section">
         <h2>Rancho Cucamonga, CA</h2>
         <p>
