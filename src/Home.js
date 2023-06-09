@@ -1,10 +1,9 @@
 import React from 'react';
-
+import logo from './IMG_0038.jpg';
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="featured-image"></div>
-
+      <img className='featured-image'src={logo}/>
       <section className="about-section">
         <h2>Rancho Cucamonga, CA</h2>
         <p>
