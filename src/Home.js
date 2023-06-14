@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="home-container">
-      <img className='home-image'src={'https://www.goldeagle.com/wp-content/uploads/2022/11/39030_In-Use_Bottle-Foaming-Corvette-Backlight-3-min.jpg'}/>
+      <img className='home-image'src={'https://www.goldeagle.com/wp-content/uploads/2022/11/39030_In-Use_Bottle-Foaming-Corvette-Backlight-3-min.jpg'} alt='404'/>
       <section className="about-section">
         <h2>Rancho Cucamonga, Ca</h2>
         <p>
