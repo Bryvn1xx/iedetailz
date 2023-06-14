@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home-container">
       <img className='home-image'src={'https://www.goldeagle.com/wp-content/uploads/2022/11/39030_In-Use_Bottle-Foaming-Corvette-Backlight-3-min.jpg'}/>
       <section className="about-section">
-        <h2>Rancho Cucamonga, CA</h2>
+        <h2>Rancho Cucamonga, Ca</h2>
         <p>
         Welcome to iedetailz, your premier mobile detailing service in Rancho Cucamonga, CA. We specialize in comprehensive interior and exterior detailing, delivering top-quality results that will make your vehicle shine like never before.
 

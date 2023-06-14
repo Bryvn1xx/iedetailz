@@ -3,7 +3,10 @@
 }
 
 .home-image {
-  
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 90%;
 }
 /* Nav */
 .nav {
