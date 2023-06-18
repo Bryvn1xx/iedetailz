@@ -6,11 +6,25 @@ body {
   color: white;
 }
 .home-image {
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 300px;
   width: 100%;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #ccc;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
 }
+
+.home-image:hover img {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
 /* Nav */
 .nav {
   background-color: black;
