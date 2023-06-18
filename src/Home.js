@@ -5,7 +5,12 @@ const Home = () => {
     <div className="home-container">
       <img className='home-image'src='./cover.jpg' alt='404'/>
       <section className="about-section">
+        <div className='username'>
+          <img className='profile-pic' src='/IMG_0102.jpg' alt='404'/>
         <h1>iedetailz</h1>
+        <img className='verified-pic' src='/verified.png' alt='404'/>
+
+        </div>
         <h3>(951)616-9769</h3>
         <h2>Rancho Cucamonga, Ca</h2>
         <p>
