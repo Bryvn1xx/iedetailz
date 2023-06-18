@@ -4,8 +4,10 @@ const Nav = () => {
   return (
     <nav className="nav">
       <div className="nav-brand">
-        <h3>
-          iedetailz
+      <h3 className='ig'>
+          <a href="https://instagram.com/iedetailz" target="_blank" rel="noopener noreferrer">
+            iedetailz
+          </a>
         </h3>
       </div>
       <div>

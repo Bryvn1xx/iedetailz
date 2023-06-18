@@ -23,10 +23,26 @@
   z-index: 999; /* Add a higher z-index value */
 }
 
-
 .nav-brand {
   display: flex;
   align-items: center;
+}
+
+.nav-brand h3 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.nav-brand a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-brand a:hover {
+  background-color: #555;
+  border-radius: 5px;
 }
 
 .nav-list {
