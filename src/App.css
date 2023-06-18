@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color:#14171A;
+  color: white;
+}
 .home-image {
   background-size: cover;
   background-position: center;
@@ -69,7 +72,7 @@
 }
 /* Home */
 .home-container {
-  background-color: white;
+  background-color: #14171A;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -109,7 +112,7 @@
 }
 
 .service-box {
-  background-color: #ffffff;
+  background-color: #1DA1F2 ;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
