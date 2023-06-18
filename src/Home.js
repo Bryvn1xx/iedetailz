@@ -5,6 +5,8 @@ const Home = () => {
     <div className="home-container">
       <img className='home-image'src='./cover.jpg' alt='404'/>
       <section className="about-section">
+        <h1>iedetailz</h1>
+        <h3>(951)616-9769</h3>
         <h2>Rancho Cucamonga, Ca</h2>
         <p>
         Welcome to iedetailz, your premier mobile detailing service in Rancho Cucamonga, CA. We specialize in comprehensive interior and exterior detailing, delivering top-quality results that will make your vehicle shine like never before.
