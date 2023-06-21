@@ -347,3 +347,44 @@ margin-right: 25px;
     transform: rotate(360deg);
   }
 }
+
+/*  pageview start */
+.pageview-container {
+  display: flex;
+  background-color: #15202b;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.pageview-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pageview-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pageview-description {
+  flex: 1;
+}
+
+.pageview-description h1 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .pageview-container {
+    flex-direction: column;
+  }
+
+  .pageview-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+/* paeview end  */
